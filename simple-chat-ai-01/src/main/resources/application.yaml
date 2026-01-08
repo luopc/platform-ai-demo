@@ -1,0 +1,25 @@
+server:
+  port: 0
+  servlet:
+    session:
+      timeout: 120s
+
+spring:
+  application:
+    name: ai-chat-01
+    version: '@project.version@'
+  profiles:
+    active: '@profiles.active@'
+    include: web
+  mvc:
+    async:
+      request-timeout: 120s
+  ai:
+    openai:
+      api-key: ${deepseek-token}
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          timeout: 120s
+          connect-timeout: 120s
