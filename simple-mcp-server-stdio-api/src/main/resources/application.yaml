@@ -1,0 +1,17 @@
+server:
+  port: 8210
+  servlet:
+    session:
+      timeout: 120s
+
+spring:
+  application:
+    name: mcp-stdio-server
+  main:
+    banner-mode: off
+    web-application-type: none
+    ai:
+      mcp:
+        server:
+          name: simple-mcp-stdio-server
+          stdio: true

@@ -1,0 +1,38 @@
+server:
+  port: 8020
+  servlet:
+    session:
+      timeout: 120s
+#    context-path: '/tools'
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  output:
+    ansi:
+      enabled: ALWAYS
+  application:
+    name: simple-sse-client
+    version: '@project.version@'
+  profiles:
+    active: '@profiles.active@'
+  mvc:
+    async:
+      request-timeout: 120s
+  ai:
+    openai:
+      api-key: ${deepseek-token}
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat  # 调用的哪个模型名称
+      embedding:
+        enabled: false
+    mcp:
+      client:
+        type: ASYNC
+        request-timeout: 30s
+        sse:
+          connections:
+            mcp-server:
+              url: http://localhost:8310

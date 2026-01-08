@@ -1,0 +1,37 @@
+server:
+  port: 0
+  servlet:
+    session:
+      timeout: 120s
+
+spring:
+  application:
+    name: mcp-stdio-01
+    version: '@project.version@'
+  profiles:
+    active: '@profiles.active@'
+    include: web
+  mvc:
+    async:
+      request-timeout: 120s
+  ai:
+    openai:
+      api-key: ${deepseek-token}
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          timeout: 120s
+          connect-timeout: 120s
+    mcp:
+      client:
+        stdio:
+          connections:
+            simple-mcp-stdio-server:
+              command: java
+              args:
+                - -Dspring.ai.mcp.server.stdio=true
+                - -jar
+                - D:\workspace\java\platform-projects\platform-ai-demo\simple-mcp-server-stdio-api\target\simple-mcp-api-server.jar
+        toolcallback:
+          enabled: true

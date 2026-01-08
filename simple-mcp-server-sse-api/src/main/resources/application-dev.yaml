@@ -1,0 +1,28 @@
+server:
+  port: 8310
+
+spring:
+  ai:
+    chat:
+      client:
+        observations:
+          #是否打印提示词
+          log-prompt: true
+          #是否打印大模型输出文本
+          log-completion: true
+          #是否打印大模型错误信息
+          include-error-logging: true
+          include-content: true
+          #是否打印工具调用
+          include-tool-calls: true
+          #是否打印使用量
+          include-usage: true
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
