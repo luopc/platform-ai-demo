@@ -56,3 +56,27 @@ T11 — Maven依赖“千层饼”破局指南：用enforcer插件+黑科技，�
 https://mp.weixin.qq.com/s/3QiQF7E8yDdx7n6J5vkG5Q
 基于Deepseek的量化交易员开发方案(含提示词)
 https://mp.weixin.qq.com/s/BNbvj5rrH7smqih_7ET0BA
+
+Spring boot AI 学习：
+https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247483941&idx=1&sn=19f52161acff36b0064eacf8fa996b49&chksm=cf2c6312f85bea0444c4b6f8be302bd965a68b827a84606f1ffab4fa15d4117c9f7a4f9943b3&cur_album_id=3950067433456451605&scene=190#rd
+https://mp.weixin.qq.com/s?__biz=MzAxNDM4OTQwNw==&mid=2649103869&idx=1&sn=056180d88ed2520ae11366dd793b2741&chksm=82e3f1a1f95a7f5df3acc3470f28cbefb4bf9e63ac8c6e5199da1252d874720f352433ea8609&mpshare=1&scene=24&srcid=0622RlIgPYxmkYm8DtODAUZg&sharer_shareinfo=7875faa9556a063b71ea0b2e9012ae43&sharer_shareinfo_first=7da862fcedb48c0989f66039ef92419c#rd
+https://mp.weixin.qq.com/s?__biz=MzkzNTI5MzcxNQ==&mid=2247483863&idx=1&sn=2bde714b1781b2c808e5a1106a26b463&chksm=c31a37edc20e50c6e716ea8626571d74c23bcb30e1aa20a642f6b338600a451965cee01a7ade&mpshare=1&scene=24&srcid=0701tJKQWGHu662wRbSXjdua&sharer_shareinfo=4e456216294c6394b073ae1f4eaa6eb4&sharer_shareinfo_first=4e456216294c6394b073ae1f4eaa6eb4#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NTkwMzg2Ng==&mid=2247484697&idx=1&sn=1ddc2124ba9f6ea50aa717afb770b090&chksm=ffbcae9942f08c7d043c23e886bf80c276542837d27249b838e7fc116ca5f7e2c22f87b4aceb&mpshare=1&scene=24&srcid=0701y8Mx8DzYzX4MpxLqrSrR&sharer_shareinfo=eec7d67734e60f604d3e3549f7ecc7ed&sharer_shareinfo_first=eec7d67734e60f604d3e3549f7ecc7ed#rd
+https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247484121&idx=1&sn=11b2ceb83c22d4144326d5931e9263be&chksm=ce9f97e68997212c2a0addd1f166c3515e097909fb816027d1028872b60f6c6a0f320976be34&mpshare=1&scene=24&srcid=0701QEhet7mjwiK9q0BjxJ19&sharer_shareinfo=5037b57b382dadce30bbba718c38b71c&sharer_shareinfo_first=5037b57b382dadce30bbba718c38b71c#rd
+https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552148&idx=1&sn=709bf5817423b8d9560cb5abc7b0337b&chksm=e813fa6487dae4b05b4f071fdc33a65a8074bac2739cf0486bba5ae305cf2c83e150d2a879a5&mpshare=1&scene=24&srcid=0806ikQghCQburr0GYLAKy13&sharer_shareinfo=f1a09e749a60be5088fd5e776bf198a5&sharer_shareinfo_first=f1a09e749a60be5088fd5e776bf198a5#rd
+
+
+使用 Spring AI 和 Redis 构建快速、可用于生产环境的 AI 应用：
+https://mp.weixin.qq.com/s/c1NQi3R-WZc0nN7baD_Tcw
+
+Low-Code + JSON
+https://zhuanlan.zhihu.com/p/1991212728765945420
+https://juejin.cn/post/7564251703794417703
+https://mp.weixin.qq.com/s/SLrFrSngnY8y6aO3WByg3A
+https://www.toutiao.com/article/7564615048178549298/
+https://github.com/yuboon/java-examples/tree/master/springboot-form
+http://www.jiangyi.space/articles/2026/01/04/1767502868997.html
+
+
+flexable report config
+https://github.com/yuboon/java-examples/tree/master
