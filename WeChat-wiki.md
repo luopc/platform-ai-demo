@@ -1,82 +1,80 @@
-11个开发人员必备AI聊天界面: https://mp.weixin.qq.com/s/1U9YIWsZVGSaw4c4FZan8Q
-开源高性能IM+集成AI能力，基于SpringBoot +Tauri+Vue 3+TypeScript支持全平台与丰富会话模式：https://mp.weixin.qq.com/s/tzw6j8nLYMOC0k6CfVrqOQ
+UI
+- [11个开发人员必备AI聊天界面](https://mp.weixin.qq.com/s/1U9YIWsZVGSaw4c4FZan8Q)
+- [开源高性能IM+集成AI能力，基于SpringBoot +Tauri+Vue 3+TypeScript支持全平台与丰富会话模式](https://mp.weixin.qq.com/s/tzw6j8nLYMOC0k6CfVrqOQ)
 
-SpringAi-RAG知识库【来源追溯】实现完整方案+代码: https://mp.weixin.qq.com/s/dtu_tDfX1x2MsAVQeN-SZg
-Spring Boot + JDK 21 + LangChain4j 实战教程: https://mp.weixin.qq.com/s/CEmRJaTViuVay-BFJJHhKQ
-SpringBoot+Tesseract异步OCR：发票识别流水线深度解析: https://mp.weixin.qq.com/s/BM_TWloG1Lhco-Z_jAu6QA
-再见，OCR模板！你好，发票智能体：基于SpringAI与大模型的零配置发票智能提取架构: https://mp.weixin.qq.com/s/SnXdTB6tYqAzG7HgbnTSAQ
-Spring + asyncTool：实现复杂任务的编排: https://mp.weixin.qq.com/s/bJvdaxk2eJNITJdnZaassw
-Spring Boot 3.3+Java 21+Spring AI+RustFS打造的智能面试平台开源啦！:https://mp.weixin.qq.com/s/g3W36eM2rT5ii6t2iNA-6A
-SpringBoot + ResponseBodyEmitter 实时异步流式推送：告别轮询，让数据推送更高效: https://mp.weixin.qq.com/s/h7hHDbqqLcjea-7JEaZF1g
-把接口加速10倍：SpringBoot3+本地缓存「金字塔」实战，实现碾压级性能提升！:https://mp.weixin.qq.com/s/ZFGKx9jn_UMYUF5kkmzA3Q
-SpringBoot + Spring AI + 向量数据库：构建企业知识库智能检索，告别信息碎片化：https://mp.weixin.qq.com/s/f8JC9X67wZutMvIvbU3y-A
-Spring AI + Super-SQL 实现Text2SQL： https://mp.weixin.qq.com/s/pobaMATkslSf7Xrt17C-1A
-从原理到实战：基于SpringAI的RAG应用探索：https://mp.weixin.qq.com/s/bioMsEGq1hqjyrOIyxl6rg
-AgentScope x RocketMQ：打造企业级高可靠 A2A 智能体通信基座：https://mp.weixin.qq.com/s/5zGv_Pwky1V0VhCeK9jo6Q
-大模型开发实战从入门到入坑：动手写一个MCP Server去理解MCP背后的技术原理：https://mp.weixin.qq.com/s/2GvezWeCw9muGfKVEdstGA
-Spring AI实现基于知识库对话(实战篇)：https://mp.weixin.qq.com/s/PHlWuzcybh3nTmCfZILr3w
-LangChain4j 完整学习路径：从入门到精通的40篇实战教程:https://mp.weixin.qq.com/s/P0J-DS0-8dSp4O-YGOn5Pg
+JAVA AI 
+- [SpringAi-RAG知识库【来源追溯】实现完整方案+代码](https://mp.weixin.qq.com/s/dtu_tDfX1x2MsAVQeN-SZg)
+- [Spring Boot + JDK 21 + LangChain4j 实战教程]( https://mp.weixin.qq.com/s/CEmRJaTViuVay-BFJJHhKQ)
+- [SpringBoot+Tesseract异步OCR：发票识别流水线深度解析](https://mp.weixin.qq.com/s/BM_TWloG1Lhco-Z_jAu6QA)
+- [再见，OCR模板！你好，发票智能体：基于SpringAI与大模型的零配置发票智能提取架构](https://mp.weixin.qq.com/s/SnXdTB6tYqAzG7HgbnTSAQ)
+- [Spring + asyncTool：实现复杂任务的编排](https://mp.weixin.qq.com/s/bJvdaxk2eJNITJdnZaassw)
+- [Spring Boot 3.3+Java 21+Spring AI+RustFS打造的智能面试平台开源啦！](https://mp.weixin.qq.com/s/g3W36eM2rT5ii6t2iNA-6A)
+- [SpringBoot + ResponseBodyEmitter 实时异步流式推送：告别轮询，让数据推送更高效](https://mp.weixin.qq.com/s/h7hHDbqqLcjea-7JEaZF1g)
+- [把接口加速10倍：SpringBoot3+本地缓存「金字塔」实战，实现碾压级性能提升！](https://mp.weixin.qq.com/s/ZFGKx9jn_UMYUF5kkmzA3Q)
+- [SpringBoot + Spring AI + 向量数据库：构建企业知识库智能检索，告别信息碎片化](https://mp.weixin.qq.com/s/f8JC9X67wZutMvIvbU3y-A)
+- [Spring AI + Super-SQL 实现Text2SQL](https://mp.weixin.qq.com/s/pobaMATkslSf7Xrt17C-1A)
+- [从原理到实战：基于SpringAI的RAG应用探索](https://mp.weixin.qq.com/s/bioMsEGq1hqjyrOIyxl6rg)
+- [AgentScope x RocketMQ：打造企业级高可靠 A2A 智能体通信基座](https://mp.weixin.qq.com/s/5zGv_Pwky1V0VhCeK9jo6Q)
+- [大模型开发实战从入门到入坑：动手写一个MCP Server去理解MCP背后的技术原理](https://mp.weixin.qq.com/s/2GvezWeCw9muGfKVEdstGA)
+- [Spring AI实现基于知识库对话(实战篇)](https://mp.weixin.qq.com/s/PHlWuzcybh3nTmCfZILr3w)
+- [LangChain4j 完整学习路径：从入门到精通的40篇实战教程](https://mp.weixin.qq.com/s/P0J-DS0-8dSp4O-YGOn5Pg)
 
-SpecKit 在成熟 Java 项目中的 AI 编码实践：https://mp.weixin.qq.com/s/AZJknKuyRfvjQxWAMaFFlg
-Spec Kit 使用指南： https://mp.weixin.qq.com/s/ZTkpe1mh8kBxLATUldZa5g
-Agent Skills 终极指南：入门、精通、预测： https://mp.weixin.qq.com/s/dXtz1BZm5oCWfPdKDFLDgw
-极速开发出一个高质量 Claude Agent Skills 最佳实践： https://mp.weixin.qq.com/s/5hFHlItI3XQUWekejC_kiw
-Skills or MCP，我们终于可以理性思考 Agent 架构了： https://mp.weixin.qq.com/s/e_6ScIBWsXim1tzSZ37nug
-Claude Skills 不就是把提示词存个文件夹吗？：https://mp.weixin.qq.com/s/fc4K4MWnrf6_aI0J3Fbc1Q
+Prompt Skill
+- [SpecKit 在成熟 Java 项目中的 AI 编码实践](https://mp.weixin.qq.com/s/AZJknKuyRfvjQxWAMaFFlg)
+- [Spec Kit 使用指南](https://mp.weixin.qq.com/s/ZTkpe1mh8kBxLATUldZa5g)
+- [Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/dXtz1BZm5oCWfPdKDFLDgw)
+- [极速开发出一个高质量 Claude Agent Skills 最佳实践](https://mp.weixin.qq.com/s/5hFHlItI3XQUWekejC_kiw)
+- [Skills or MCP，我们终于可以理性思考 Agent 架构了](https://mp.weixin.qq.com/s/e_6ScIBWsXim1tzSZ37nug)
+- [Claude Skills 不就是把提示词存个文件夹吗？](https://mp.weixin.qq.com/s/fc4K4MWnrf6_aI0J3Fbc1Q)
+- 
+Spring boot 实战
+- [如何搭建漂亮的 SpringBoot 脚手架？](https://mp.weixin.qq.com/s/4DqwUWyuMyItOiimUuMfYg)
+- [Spring Boot 企业级代码规范实战：统一响应、统一日志、统一异常、统一封装](https://mp.weixin.qq.com/s/22SMk5jlZKK6ZfvcQ_fUlg)
+- [SpringBoot3.x整合通用基础代码](https://mp.weixin.qq.com/s/BjfiPpEb8RJlbHy-2VSZrQ)
+- [JAVA：Spring Boot 集成 Renren-Generator 代码生成器](https://mp.weixin.qq.com/s/SKfaoQ5fs7NlV7N-iJelQA)
+- [SpringBoot 结合 XXL-JOB 实现定时任务](https://mp.weixin.qq.com/s/SiInGrO5HoExWJ5IfrwoAw)
+- [魔改xxl-job，彻底告别手动配置任务！](https://mp.weixin.qq.com/s/Jwskq0qn4aLDw3DDde9n9g)
+- [SpringBoot 集成 Hera，让日志查看从 “找罪证” 变 “查答案”！](https://mp.weixin.qq.com/s/XTVOpJ4yYssEv0jSa-jaOA)
+- [无需中间件！Spring Boot 本地高性能消息队列方案：Chronicle Queue](https://mp.weixin.qq.com/s/2fagmfZdYuhdOJH-QT6F0Q)
+- [SpringBoot + Low-Code + JSON 表单引擎：5 分钟配置一套审批流，告别重复 CRUD](https://mp.weixin.qq.com/s/SLrFrSngnY8y6aO3WByg3A)
+- [别再明文存密码了！Spring Boot + Jasypt 三步搞定敏感信息加密，安全感拉满！](https://mp.weixin.qq.com/s/sXPPQB5NNXyVNw0yPI3REQ)
+- [Spring Boot 中使用 JSONPath 高效处理 JSON 数据](https://mp.weixin.qq.com/s/nznj4drY0NcYL2nGnhs2vQ)
+- [Spring Boot 4 + OpenTelemetry：三行配置解锁云原生可观测性](https://mp.weixin.qq.com/s/o8rJiLI3AjEvcbQ5SvAx7Q)
+- [Spring + asyncTool：实现复杂任务的编排](https://mp.weixin.qq.com/s/bJvdaxk2eJNITJdnZaassw)
+- [看了我的 MyBatis Plus 用法，全公司同事开始悄悄模仿了。。](https://mp.weixin.qq.com/s/0YWnTEfLoLg5-4QRmMImZg)
+- [Spring Boot 集成 Forest 优雅的 HTTP 客户端](https://mp.weixin.qq.com/s/RE2_s_bennZb39q5eHPMNA)
+- [forest 源码](https://github.com/dromara/forest)
+- [Spring Boot 实现日志链路追踪，无需引入组件，让日志定位更方便！](https://mp.weixin.qq.com/s/ZS7RIPwCB5FmMypMZAcKtg)
+- [Java 23 × Spring Boot 3.3.4：AI 驱动测试生成，开发效率直接翻倍？](https://mp.weixin.qq.com/s/9x61Y3MPQ3b1W92F_nKeCQ)
+- [Spring Boot 加上 OpenTelemetry 会发生什么？真实结果比我想的离谱！](https://mp.weixin.qq.com/s/918ORVAHIrPNCUXny5Flng)
+- [Spring Boot模块化实战：让大型项目保持清晰架构](https://mp.weixin.qq.com/s/u-cA-VeXmb7jo8mYyveBvg)
+- [DiffUtils 实战：如何用 Java 实现 GitHub 同款的代码对比？](https://mp.weixin.qq.com/s/uz80AaL-zxHvjJB337O2KA)
+- [Redis高级玩法：从分页到多条件查询，这一篇全搞定！](https://mp.weixin.qq.com/s/Q_Mpja-54SIW7534e-6iCQ)
+- [MyBatis-Plus 不只是简化CRUD！资深架构师总结的15个高阶用法](https://mp.weixin.qq.com/s/AJaB6klGtwmJFl0LHY4mKw)
 
-如何搭建漂亮的 SpringBoot 脚手架？：https://mp.weixin.qq.com/s/4DqwUWyuMyItOiimUuMfYg
-Spring Boot 企业级代码规范实战：统一响应、统一日志、统一异常、统一封装：https://mp.weixin.qq.com/s/22SMk5jlZKK6ZfvcQ_fUlg
-SpringBoot3.x整合通用基础代码： https://mp.weixin.qq.com/s/BjfiPpEb8RJlbHy-2VSZrQ
-JAVA：Spring Boot 集成 Renren-Generator 代码生成器：https://mp.weixin.qq.com/s/SKfaoQ5fs7NlV7N-iJelQA
-SpringBoot 结合 XXL-JOB 实现定时任务： https://mp.weixin.qq.com/s/SiInGrO5HoExWJ5IfrwoAw
-魔改xxl-job，彻底告别手动配置任务！：https://mp.weixin.qq.com/s/Jwskq0qn4aLDw3DDde9n9g
-SpringBoot 集成 Hera，让日志查看从 “找罪证” 变 “查答案”！：https://mp.weixin.qq.com/s/XTVOpJ4yYssEv0jSa-jaOA
-无需中间件！Spring Boot 本地高性能消息队列方案：Chronicle Queue： https://mp.weixin.qq.com/s/2fagmfZdYuhdOJH-QT6F0Q
-SpringBoot + Low-Code + JSON 表单引擎：5 分钟配置一套审批流，告别重复 CRUD： https://mp.weixin.qq.com/s/SLrFrSngnY8y6aO3WByg3A
-别再明文存密码了！Spring Boot + Jasypt 三步搞定敏感信息加密，安全感拉满！：https://mp.weixin.qq.com/s/sXPPQB5NNXyVNw0yPI3REQ
-Spring Boot 中使用 JSONPath 高效处理 JSON 数据： https://mp.weixin.qq.com/s/nznj4drY0NcYL2nGnhs2vQ
-Spring Boot 4 + OpenTelemetry：三行配置解锁云原生可观测性： https://mp.weixin.qq.com/s/o8rJiLI3AjEvcbQ5SvAx7Q
-Spring + asyncTool：实现复杂任务的编排： https://mp.weixin.qq.com/s/bJvdaxk2eJNITJdnZaassw
-看了我的 MyBatis Plus 用法，全公司同事开始悄悄模仿了。。：https://mp.weixin.qq.com/s/0YWnTEfLoLg5-4QRmMImZg
-Spring Boot 集成 Forest 优雅的 HTTP 客户端：https://mp.weixin.qq.com/s/RE2_s_bennZb39q5eHPMNA
-https://github.com/dromara/forest
-Spring Boot 实现日志链路追踪，无需引入组件，让日志定位更方便！：https://mp.weixin.qq.com/s/ZS7RIPwCB5FmMypMZAcKtg
-Java 23 × Spring Boot 3.3.4：AI 驱动测试生成，开发效率直接翻倍？：https://mp.weixin.qq.com/s/9x61Y3MPQ3b1W92F_nKeCQ
-Spring Boot 加上 OpenTelemetry 会发生什么？真实结果比我想的离谱！：https://mp.weixin.qq.com/s/918ORVAHIrPNCUXny5Flng
-Spring Boot模块化实战：让大型项目保持清晰架构：https://mp.weixin.qq.com/s/u-cA-VeXmb7jo8mYyveBvg
-DiffUtils 实战：如何用 Java 实现 GitHub 同款的代码对比？：https://mp.weixin.qq.com/s/uz80AaL-zxHvjJB337O2KA
-Redis高级玩法：从分页到多条件查询，这一篇全搞定！：https://mp.weixin.qq.com/s/Q_Mpja-54SIW7534e-6iCQ
-MyBatis-Plus 不只是简化CRUD！资深架构师总结的15个高阶用法：https://mp.weixin.qq.com/s/AJaB6klGtwmJFl0LHY4mKw
-
-AI工程vs传统工程 —「道法术」中的变与不变
-https://mp.weixin.qq.com/s/Foiid7aYvTD0-ejBSGhM7A
-多版本JDK工程编译实践：Maven Toolchains与Profiles解决方案
-https://mp.weixin.qq.com/s/5lWrdhyVJofpoFZSJJI7tg
-T11 — Maven依赖“千层饼”破局指南：用enforcer插件+黑科技，让Jar包排除不再“瞎猜”
-https://mp.weixin.qq.com/s/3QiQF7E8yDdx7n6J5vkG5Q
-基于Deepseek的量化交易员开发方案(含提示词)
-https://mp.weixin.qq.com/s/BNbvj5rrH7smqih_7ET0BA
+Maven 工程优化实践
+- [AI工程vs传统工程 —「道法术」中的变与不变](https://mp.weixin.qq.com/s/Foiid7aYvTD0-ejBSGhM7A)
+- [多版本JDK工程编译实践：Maven Toolchains与Profiles解决方案](https://mp.weixin.qq.com/s/5lWrdhyVJofpoFZSJJI7tg)
+- [T11 — Maven依赖“千层饼”破局指南：用enforcer插件+黑科技，让Jar包排除不再“瞎猜”](https://mp.weixin.qq.com/s/3QiQF7E8yDdx7n6J5vkG5Q)
+- [基于Deepseek的量化交易员开发方案(含提示词)](https://mp.weixin.qq.com/s/BNbvj5rrH7smqih_7ET0BA)
 
 Spring boot AI 学习：
-https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247483941&idx=1&sn=19f52161acff36b0064eacf8fa996b49&chksm=cf2c6312f85bea0444c4b6f8be302bd965a68b827a84606f1ffab4fa15d4117c9f7a4f9943b3&cur_album_id=3950067433456451605&scene=190#rd
-https://mp.weixin.qq.com/s?__biz=MzAxNDM4OTQwNw==&mid=2649103869&idx=1&sn=056180d88ed2520ae11366dd793b2741&chksm=82e3f1a1f95a7f5df3acc3470f28cbefb4bf9e63ac8c6e5199da1252d874720f352433ea8609&mpshare=1&scene=24&srcid=0622RlIgPYxmkYm8DtODAUZg&sharer_shareinfo=7875faa9556a063b71ea0b2e9012ae43&sharer_shareinfo_first=7da862fcedb48c0989f66039ef92419c#rd
-https://mp.weixin.qq.com/s?__biz=MzkzNTI5MzcxNQ==&mid=2247483863&idx=1&sn=2bde714b1781b2c808e5a1106a26b463&chksm=c31a37edc20e50c6e716ea8626571d74c23bcb30e1aa20a642f6b338600a451965cee01a7ade&mpshare=1&scene=24&srcid=0701tJKQWGHu662wRbSXjdua&sharer_shareinfo=4e456216294c6394b073ae1f4eaa6eb4&sharer_shareinfo_first=4e456216294c6394b073ae1f4eaa6eb4#rd
-https://mp.weixin.qq.com/s?__biz=MzU5NTkwMzg2Ng==&mid=2247484697&idx=1&sn=1ddc2124ba9f6ea50aa717afb770b090&chksm=ffbcae9942f08c7d043c23e886bf80c276542837d27249b838e7fc116ca5f7e2c22f87b4aceb&mpshare=1&scene=24&srcid=0701y8Mx8DzYzX4MpxLqrSrR&sharer_shareinfo=eec7d67734e60f604d3e3549f7ecc7ed&sharer_shareinfo_first=eec7d67734e60f604d3e3549f7ecc7ed#rd
-https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247484121&idx=1&sn=11b2ceb83c22d4144326d5931e9263be&chksm=ce9f97e68997212c2a0addd1f166c3515e097909fb816027d1028872b60f6c6a0f320976be34&mpshare=1&scene=24&srcid=0701QEhet7mjwiK9q0BjxJ19&sharer_shareinfo=5037b57b382dadce30bbba718c38b71c&sharer_shareinfo_first=5037b57b382dadce30bbba718c38b71c#rd
-https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552148&idx=1&sn=709bf5817423b8d9560cb5abc7b0337b&chksm=e813fa6487dae4b05b4f071fdc33a65a8074bac2739cf0486bba5ae305cf2c83e150d2a879a5&mpshare=1&scene=24&srcid=0806ikQghCQburr0GYLAKy13&sharer_shareinfo=f1a09e749a60be5088fd5e776bf198a5&sharer_shareinfo_first=f1a09e749a60be5088fd5e776bf198a5#rd
-
-
-使用 Spring AI 和 Redis 构建快速、可用于生产环境的 AI 应用：
-https://mp.weixin.qq.com/s/c1NQi3R-WZc0nN7baD_Tcw
+- [接入SpringAI实现流式对话](https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247483941&idx=1&sn=19f52161acff36b0064eacf8fa996b49&chksm=cf2c6312f85bea0444c4b6f8be302bd965a68b827a84606f1ffab4fa15d4117c9f7a4f9943b3&cur_album_id=3950067433456451605&scene=190#rd)
+- [SpringAI智能体开发-10个案例带你跑通开发流程,内含源码](https://mp.weixin.qq.com/s?__biz=MzAxNDM4OTQwNw==&mid=2649103869&idx=1&sn=056180d88ed2520ae11366dd793b2741&chksm=82e3f1a1f95a7f5df3acc3470f28cbefb4bf9e63ac8c6e5199da1252d874720f352433ea8609&mpshare=1&scene=24&srcid=0622RlIgPYxmkYm8DtODAUZg&sharer_shareinfo=7875faa9556a063b71ea0b2e9012ae43&sharer_shareinfo_first=7da862fcedb48c0989f66039ef92419c#rd)
+- [Spring AI多模态](https://mp.weixin.qq.com/s?__biz=MzkzNTI5MzcxNQ==&mid=2247483863&idx=1&sn=2bde714b1781b2c808e5a1106a26b463&chksm=c31a37edc20e50c6e716ea8626571d74c23bcb30e1aa20a642f6b338600a451965cee01a7ade&mpshare=1&scene=24&srcid=0701tJKQWGHu662wRbSXjdua&sharer_shareinfo=4e456216294c6394b073ae1f4eaa6eb4&sharer_shareinfo_first=4e456216294c6394b073ae1f4eaa6eb4#rd)
+- [Spring AI Advisors：增强AI交互工具](https://mp.weixin.qq.com/s?__biz=MzU5NTkwMzg2Ng==&mid=2247484697&idx=1&sn=1ddc2124ba9f6ea50aa717afb770b090&chksm=ffbcae9942f08c7d043c23e886bf80c276542837d27249b838e7fc116ca5f7e2c22f87b4aceb&mpshare=1&scene=24&srcid=0701y8Mx8DzYzX4MpxLqrSrR&sharer_shareinfo=eec7d67734e60f604d3e3549f7ecc7ed&sharer_shareinfo_first=eec7d67734e60f604d3e3549f7ecc7ed#rd)
+- [Spring AI MCP查询业务数据](https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247484121&idx=1&sn=11b2ceb83c22d4144326d5931e9263be&chksm=ce9f97e68997212c2a0addd1f166c3515e097909fb816027d1028872b60f6c6a0f320976be34&mpshare=1&scene=24&srcid=0701QEhet7mjwiK9q0BjxJ19&sharer_shareinfo=5037b57b382dadce30bbba718c38b71c&sharer_shareinfo_first=5037b57b382dadce30bbba718c38b71c#rd)
+- [AI 基础知识从 0.5 到 0.6—— Transformer 架构为何能统治AI领域？](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552148&idx=1&sn=709bf5817423b8d9560cb5abc7b0337b&chksm=e813fa6487dae4b05b4f071fdc33a65a8074bac2739cf0486bba5ae305cf2c83e150d2a879a5&mpshare=1&scene=24&srcid=0806ikQghCQburr0GYLAKy13&sharer_shareinfo=f1a09e749a60be5088fd5e776bf198a5&sharer_shareinfo_first=f1a09e749a60be5088fd5e776bf198a5#rd)
+- [使用 Spring AI 和 Redis 构建快速、可用于生产环境的 AI 应用](https://mp.weixin.qq.com/s/c1NQi3R-WZc0nN7baD_Tcw)
 
 Low-Code + JSON
-https://zhuanlan.zhihu.com/p/1991212728765945420
-https://juejin.cn/post/7564251703794417703
-https://mp.weixin.qq.com/s/SLrFrSngnY8y6aO3WByg3A
-https://www.toutiao.com/article/7564615048178549298/
-https://github.com/yuboon/java-examples/tree/master/springboot-form
-http://www.jiangyi.space/articles/2026/01/04/1767502868997.html
+- [SpringBoot + JSON Schema + 动态表单引擎](https://zhuanlan.zhihu.com/p/1991212728765945420)
+- [SpringBoot + JSON Schema 动态表单开发](https://juejin.cn/post/7564251703794417703)
+- [SpringBoot + Low-Code + JSON 表单引擎](https://mp.weixin.qq.com/s/SLrFrSngnY8y6aO3WByg3A)
+- [SpringBoot+JSON Schema实战](https://www.toutiao.com/article/7564615048178549298/)
+- [springboot-form](https://github.com/yuboon/java-examples/tree/master/springboot-form)
+- [SpringBoot + JSON Schema + 动态表单引擎](http://www.jiangyi.space/articles/2026/01/04/1767502868997.html)
 
-
-flexable report config
-https://github.com/yuboon/java-examples/tree/master
+金融报表
+- [flexible report config](https://github.com/yuboon/java-examples/tree/master)
+- [金融+AI](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0OTE3MjYyMA==&action=getalbum&album_id=3603793632165150722&subscene=90&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzI0OTE3MjYyMA%3D%3D%26mid%3D2247484963%26idx%3D1%26sn%3D745f3a90e2d81655dee08b6b26d56bc9%26chksm%3De8fd667b1b390a805539991c10a37b7f1612ff8a3cec2753db6b16363fc57a9a131182f56f46%26xtrack%3D1%26req_id%3D1768834028392380%26scene%3D90%26subscene%3D93%26sessionid%3D1768834764%26flutter_pos%3D2%26clicktime%3D1768834772621%26enterid%3D1768834772621%26finder_biz_enter_id%3D4%26ranksessionid%3D1768834028%26key%3Ddaf9bdc5abc4e8d023c7bd691b43c72cacd3f4a621391e3ebd737f1f6be3873d05d08b9f5b30221939bcce99c0db290e6cc75754d38e098da9405819cd9f583b47de5fb65460fa4b865164a2ff8c21fcb3db1a3bdade2dd2deacc1140f9d582b85352a0c18a39f61ee916c883fa3976d25d070d7b9ba867d468a994c62a5de68%26ascene%3D0%26uin%3DMTE5NjIzODU1%26devicetype%3DOHOS-21%26version%3Df3800e2a%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26countrycode%3DBA%26exportkey%3Dn_ChQIAhIQpD5KnCKLIOHjZmgn4QaVSxLWAQIE97dBBAEAAAAAAF8FNKK29yUAAAAOpnltbLcz9gKNyK89dVj0Y1ZKzjtN1EGz0Oje2A9t6T5WsNAX0Y3Dm8bgzcdZMlmaEEbhiINVWV7LHsTiRebsuoB7kPYPdfLqGWXNmkh%252BS3DjE91sPDR3E4EZfJBMHoFbiia%252F%252FVrdmOy0f9mbTLEDCfBW%252Fz5x6ykU9IUQ0pzneTseOKqdX7R%252FOx2Dpdpf3J8FLU9t3QizgOf4nZ7RIcYHeB7efFMX6UClno8vPxLbEqNvr10Z1hmbOQY56EE0nsY%253D%26pass_ticket%3DXdgHP6OZqQR4hD5P8Uz%252FjGhAP5SVgpg0CV55hGm4BNUh1WuvWnHEL6KGICWqofAm%26wx_header%3D3&nolastread=1#wechat_redirect)
