@@ -1,0 +1,55 @@
+spring:
+  # redis 连接池配置信息
+  data:
+    redis:
+      lettuce:
+        pool:
+          max-active: 10
+          min-idle: 3
+          max-idle: 6
+          max-wait: 30000ms
+      database: 0
+      timeout: 10000ms
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  # 数据库连接信息
+  data:
+    redis:
+      host: data.luopc.com
+      password: ENC(lJj6pQyJNSlCmmeTFptSg2hx0NKetqPG)
+      port: 7077
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  # 数据库连接信息
+  data:
+    redis:
+      host: data.luopc.com
+      password: ENC(lJj6pQyJNSlCmmeTFptSg2hx0NKetqPG)
+      port: 7077
+
+---
+spring:
+  config:
+    activate:
+      on-profile: uat
+  # 数据库连接信息
+  data:
+    redis:
+      password: ENC(Vh+Yef7zOTQh1zuk55HChAF1iJ3C7BUT)
+      cluster:
+        max-redirects: 3
+        nodes:
+          - data.luopc.com:7070
+          - data.luopc.com:7071
+          - core.luopc.com:7070
+          - core.luopc.com:7071
+          - app.luopc.com:7070
+          - app.luopc.com:7071
