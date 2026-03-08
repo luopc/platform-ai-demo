@@ -1,0 +1,33 @@
+spring:
+  data:
+    mongodb:
+      host: data.luopc.com
+      port: 27017
+      database: test_db
+      username: admin
+      password: ENC(p7u7jKAh65gqDKJl+yfyiyyMcKOend4g)
+      authentication-database: admin
+      auto-index-creation: true
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  data:
+    mongodb:
+      database: test_db
+      username: admin
+      password: ENC(fPAkFSYA4QhwYfhaYz3f9o8l3OIjS0gd)
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: uat
