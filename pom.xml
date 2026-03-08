@@ -11,24 +11,27 @@
     <description>Build AI Demo for testing</description>
     <parent>
         <groupId>com.luopc.platform.parent</groupId>
-        <artifactId>platform-boot-ai</artifactId>
-        <version>2.10.10-SNAPSHOT</version>
+        <artifactId>platform-boot-3.5</artifactId>
+        <version>2.10.13</version>
     </parent>
     <modules>
+        <module>base-activemq-demo</module>
+        <module>base-mongdb-demo</module>
+        <module>base-redis-demo</module>
+
+        <module>langchain4j-open-ai-01</module>
+        <module>langchain4j-springboot</module>
+
         <module>simple-chat-ai-01</module>
         <module>simple-chat-with-memory</module>
         <module>simple-mcp-client-stdio</module>
         <module>simple-mcp-server-stdio-api</module>
         <module>simple-mcp-client-sse</module>
         <module>simple-mcp-server-sse-api</module>
-        <module>langchain4j-open-ai-01</module>
-        <module>langchain4j-springboot</module>
     </modules>
-
     <properties>
         <java.version>21</java.version>
     </properties>
-
     <scm>
         <url>https://github.com/luopc/platform-ai-demo.git/</url>
         <connection>scm:git:git@github.com:luopc/platform-ai-demo.git</connection>
@@ -55,13 +58,19 @@
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-web</artifactId>
-                <version>1.2.3</version>
+                <version>1.2.5</version>
             </dependency>
 
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-core</artifactId>
-                <version>1.2.3</version>
+                <version>1.2.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.luopc.platform.boot</groupId>
+                <artifactId>common-test</artifactId>
+                <version>1.2.5</version>
+                <scope>test</scope>
             </dependency>
 
             <!-- Utilities -->
@@ -94,11 +103,6 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
                 <version>${commons.collections4.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
@@ -135,35 +139,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <!---->
-    <repositories>
-        <repository>
-            <name>Central Portal Snapshots</name>
-            <id>central-portal-snapshots</id>
-            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-        </repository>
-    </repositories>
 
 </project>

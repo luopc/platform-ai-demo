@@ -1,0 +1,39 @@
+server:
+  port: 0
+
+platform:
+  resilience:
+    isHotWarmModel: false
+
+spring:
+  application:
+    name: activemq-demo
+    version: '@project.version@'
+  profiles:
+    active: '@profiles.active@'
+    include: core,web,activemq
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 0
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+server:
+  port: 8082
+
+---
+spring:
+  config:
+    activate:
+      on-profile: uat
+server:
+  port: 8980
+
