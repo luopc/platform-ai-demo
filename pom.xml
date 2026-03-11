@@ -28,6 +28,7 @@
         <module>simple-mcp-server-stdio-api</module>
         <module>simple-mcp-client-sse</module>
         <module>simple-mcp-server-sse-api</module>
+        <module>base-java-test</module>
     </modules>
     <properties>
         <java.version>21</java.version>
