@@ -66,6 +66,7 @@ Spring boot AI 学习：
 - [Spring AI MCP查询业务数据](https://mp.weixin.qq.com/s?__biz=Mzg3Njc3MTQxNg==&mid=2247484121&idx=1&sn=11b2ceb83c22d4144326d5931e9263be&chksm=ce9f97e68997212c2a0addd1f166c3515e097909fb816027d1028872b60f6c6a0f320976be34&mpshare=1&scene=24&srcid=0701QEhet7mjwiK9q0BjxJ19&sharer_shareinfo=5037b57b382dadce30bbba718c38b71c&sharer_shareinfo_first=5037b57b382dadce30bbba718c38b71c#rd)
 - [AI 基础知识从 0.5 到 0.6—— Transformer 架构为何能统治AI领域？](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552148&idx=1&sn=709bf5817423b8d9560cb5abc7b0337b&chksm=e813fa6487dae4b05b4f071fdc33a65a8074bac2739cf0486bba5ae305cf2c83e150d2a879a5&mpshare=1&scene=24&srcid=0806ikQghCQburr0GYLAKy13&sharer_shareinfo=f1a09e749a60be5088fd5e776bf198a5&sharer_shareinfo_first=f1a09e749a60be5088fd5e776bf198a5#rd)
 - [使用 Spring AI 和 Redis 构建快速、可用于生产环境的 AI 应用](https://mp.weixin.qq.com/s/c1NQi3R-WZc0nN7baD_Tcw)
+- [告别传统AI开发！SpringAI Agent + Skills重新定义智能应用](https://github.com/liuyueyi/spring-ai-demo)
 
 Low-Code + JSON
 - [SpringBoot + JSON Schema + 动态表单引擎](https://zhuanlan.zhihu.com/p/1991212728765945420)
