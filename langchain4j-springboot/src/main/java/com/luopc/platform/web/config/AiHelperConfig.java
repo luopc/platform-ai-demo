@@ -4,6 +4,8 @@ package com.luopc.platform.web.config;
 import dev.langchain4j.data.message.AiMessage;
 import dev.langchain4j.data.message.SystemMessage;
 import dev.langchain4j.data.message.UserMessage;
+import dev.langchain4j.memory.chat.ChatMemoryProvider;
+import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.response.ChatResponse;
 import jakarta.annotation.Resource;
@@ -46,6 +48,14 @@ public class AiHelperConfig {
         AiMessage aiMessage = chatResponse.aiMessage();
         log.info("AI Response：{}", aiMessage.toString());
         return aiMessage.text();
+    }
+
+
+    @Bean
+    public ChatMemoryProvider chatMemoryProvider() {
+        // 这个Bean会为每个用户（由memoryId标识）创建一个MessageWindowChatMemory实例
+        // withMaxMessages(10)表示每个对话最多保留最近的10条消息
+        return memoryId -> MessageWindowChatMemory.withMaxMessages(10);
     }
 
     public String chatWithMessage(UserMessage userMessage) {

@@ -1,6 +1,8 @@
 package com.luopc.platform.web.config;
 
 import io.micrometer.observation.ObservationRegistry;
+import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
@@ -20,7 +22,7 @@ import org.springframework.web.client.RestClient;
 
 import java.util.Map;
 
-
+@Slf4j
 @Configuration
 public class ChatWithMemoryClientConfig {
 
@@ -67,6 +69,7 @@ public class ChatWithMemoryClientConfig {
         //spring.ai.openai.chat.options.extra-body.top_p=0.95
         //spring.ai.openai.chat.options.extra-body.repetition_penalty=1.05
         //spring.ai.openai.chat.options.extra-body.min_p=0.05
+        log.info("Using custom OpenAI API with base URL...");
         var openAiChatOptions = OpenAiChatOptions.builder()
                 .model("deepseek-chat")
                 .httpHeaders(Map.of("X-Custom-Header", "value", "Token", "token 1234"))

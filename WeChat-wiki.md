@@ -18,6 +18,8 @@ JAVA AI
 - [大模型开发实战从入门到入坑：动手写一个MCP Server去理解MCP背后的技术原理](https://mp.weixin.qq.com/s/2GvezWeCw9muGfKVEdstGA)
 - [Spring AI实现基于知识库对话(实战篇)](https://mp.weixin.qq.com/s/PHlWuzcybh3nTmCfZILr3w)
 - [LangChain4j 完整学习路径：从入门到精通的40篇实战教程](https://mp.weixin.qq.com/s/P0J-DS0-8dSp4O-YGOn5Pg)
+- [Spring AI + RAG 从 0 到 1 落地：本地知识库 + 联网搜索，一套代码直接跑通](https://mp.weixin.qq.com/s/ANx4GXulgK9bmPK3EafAoQ)
+- [langchain4j 新版混合检索来了，RAG 准确率直接拉满](https://mp.weixin.qq.com/s/sNUruQEIC9GJFqtaXjAcZQ)
 
 Prompt Skill
 - [SpecKit 在成熟 Java 项目中的 AI 编码实践](https://mp.weixin.qq.com/s/AZJknKuyRfvjQxWAMaFFlg)
@@ -26,6 +28,8 @@ Prompt Skill
 - [极速开发出一个高质量 Claude Agent Skills 最佳实践](https://mp.weixin.qq.com/s/5hFHlItI3XQUWekejC_kiw)
 - [Skills or MCP，我们终于可以理性思考 Agent 架构了](https://mp.weixin.qq.com/s/e_6ScIBWsXim1tzSZ37nug)
 - [Claude Skills 不就是把提示词存个文件夹吗？](https://mp.weixin.qq.com/s/fc4K4MWnrf6_aI0J3Fbc1Q)
+- [在 IDEA 里爽用 Claude Code 和 Codex](https://mp.weixin.qq.com/s/bK3nNcMYOHkjD7gRWQCntg)
+- [Multi-Agent + Skills + Spring AI 构建自主决策智能体](https://mp.weixin.qq.com/s/7bOyXi03I1asz5YMGD-Tgg)
 - 
 Spring boot 实战
 - [如何搭建漂亮的 SpringBoot 脚手架？](https://mp.weixin.qq.com/s/4DqwUWyuMyItOiimUuMfYg)

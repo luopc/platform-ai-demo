@@ -21,7 +21,7 @@ spring:
       request-timeout: 120s
   ai:
     openai:
-      api-key: ${deepseek-token}
+      api-key: ${DEEPSEEK-TOKEN}
       base-url: https://api.deepseek.com
       chat:
         options:
@@ -35,4 +35,4 @@ spring:
         sse:
           connections:
             mcp-server:
-              url: http://localhost:8310
+              url: http://localhost:8080

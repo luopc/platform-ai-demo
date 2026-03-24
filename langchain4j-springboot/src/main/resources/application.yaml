@@ -10,7 +10,7 @@ spring:
     version: '@project.version@'
   profiles:
     active: '@profiles.active@'
-    include: web
+    include: core,web
 
 langchain4j:
   community:

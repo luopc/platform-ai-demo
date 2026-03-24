@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.luopc.platform.demo.ai</groupId>
     <artifactId>platform-ai-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -12,25 +11,26 @@
     <parent>
         <groupId>com.luopc.platform.parent</groupId>
         <artifactId>platform-boot-3.5</artifactId>
-        <version>2.10.13</version>
+        <version>2.10.14-SNAPSHOT</version>
     </parent>
     <modules>
+        <module>base-java-test</module>
         <module>base-activemq-demo</module>
         <module>base-mongdb-demo</module>
         <module>base-redis-demo</module>
-
         <module>langchain4j-open-ai-01</module>
         <module>langchain4j-springboot</module>
-
         <module>simple-chat-ai-01</module>
         <module>simple-chat-with-memory</module>
         <module>simple-mcp-client-stdio</module>
         <module>simple-mcp-server-stdio-api</module>
         <module>simple-mcp-client-sse</module>
         <module>simple-mcp-server-sse-api</module>
-        <module>base-java-test</module>
+        <module>alibaba-studio-demo</module>
+        <module>ClaudeClient-demo</module>
     </modules>
     <properties>
+        <ai-alibaba-studio>1.1.2.2</ai-alibaba-studio>
         <java.version>21</java.version>
     </properties>
     <scm>
@@ -55,22 +55,27 @@
                 <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
                 <version>${springdoc.webmvc.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud.ai</groupId>
+                <artifactId>spring-ai-alibaba-studio</artifactId>
+                <version>${ai-alibaba-studio}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-web</artifactId>
-                <version>1.2.5</version>
+                <version>1.2.6-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-core</artifactId>
-                <version>1.2.5</version>
+                <version>1.2.6-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-test</artifactId>
-                <version>1.2.5</version>
+                <version>1.2.6-SNAPSHOT</version>
                 <scope>test</scope>
             </dependency>
 
@@ -110,6 +115,24 @@
                 <artifactId>fastjson2</artifactId>
                 <version>${fastjson2.version}</version>
             </dependency>
+
+            <!--节省token:
+                String toon=JsonIo.toToon(user,null);
+                User restored=JsonIo.fromToon(toon,null).asClass(User.class);
+            -->
+            <dependency>
+                 <groupId>com.cedarsoftware</groupId>
+                 <artifactId>json-io</artifactId>
+                 <version>4.89.0</version>
+            </dependency>
+            <!-- # 请求 TOON
+            curl -H "Accept: application/vnd.toon" http://localhost:8080/user/1
+            <dependency>
+              <groupId>com.cedarsoftware</groupId>
+              <artifactId>json-io-spring-boot-starter</artifactId>
+              <version>4.89.0</version>
+            </dependency>
+            -->
 
             <!-- spring test -->
             <dependency>

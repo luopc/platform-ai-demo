@@ -83,7 +83,7 @@ public class SimpleChatHelloController {
     @Parameters({
             @Parameter(name = "prompt", description = "user query")
     })
-    @GetMapping("/stream/chat")
+    @GetMapping(path = "/stream/chat", produces = MediaType.TEXT_EVENT_STREAM_VALUE + "; charset=UTF-8")
     public Flux<String> streamChat(@RequestParam(value = "prompt", defaultValue = "能给我讲一个故事么？") String prompt, HttpServletResponse response) {
         response.setCharacterEncoding("UTF-8");
         return chatClient.prompt(prompt).stream().content();

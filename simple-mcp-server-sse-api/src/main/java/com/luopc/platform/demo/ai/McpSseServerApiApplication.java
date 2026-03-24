@@ -15,8 +15,5 @@ public class McpSseServerApiApplication {
         SpringApplication.run(McpSseServerApiApplication.class, args);
     }
 
-    @Bean
-    public ToolCallbackProvider weatherTools(McpServiceResource mcpServiceResource) {
-        return MethodToolCallbackProvider.builder().toolObjects(mcpServiceResource).build();
-    }
+
 }

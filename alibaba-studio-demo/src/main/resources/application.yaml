@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: ai-chat-01
+    name: studio-chat-01
     version: '@project.version@'
   profiles:
     active: '@profiles.active@'
@@ -15,11 +15,5 @@ spring:
     async:
       request-timeout: 120s
   ai:
-    openai:
-      api-key: ${deepseek-token}
-      base-url: https://api.deepseek.com
-      chat:
-        options:
-          model: deepseek-chat
-          timeout: 120s
-          connect-timeout: 120s
+    dashscope:
+      api-key: ${AI_DASHSCOPE_API_KEY}
