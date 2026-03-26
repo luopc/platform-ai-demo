@@ -20,6 +20,7 @@ JAVA AI
 - [LangChain4j 完整学习路径：从入门到精通的40篇实战教程](https://mp.weixin.qq.com/s/P0J-DS0-8dSp4O-YGOn5Pg)
 - [Spring AI + RAG 从 0 到 1 落地：本地知识库 + 联网搜索，一套代码直接跑通](https://mp.weixin.qq.com/s/ANx4GXulgK9bmPK3EafAoQ)
 - [langchain4j 新版混合检索来了，RAG 准确率直接拉满](https://mp.weixin.qq.com/s/sNUruQEIC9GJFqtaXjAcZQ)
+- [基于Spring AI，打造支持富UI的流式对话系统](https://mp.weixin.qq.com/s/U6ua-dpkVZTYT1n5JXiYDg)
 
 Prompt Skill
 - [SpecKit 在成熟 Java 项目中的 AI 编码实践](https://mp.weixin.qq.com/s/AZJknKuyRfvjQxWAMaFFlg)
