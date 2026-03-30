@@ -28,6 +28,8 @@
         <module>simple-mcp-server-sse-api</module>
         <module>alibaba-studio-demo</module>
         <module>ClaudeClient-demo</module>
+        <module>html-chat-01</module>
+        <module>html-chat-02</module>
     </modules>
     <properties>
         <ai-alibaba-studio>1.1.2.2</ai-alibaba-studio>

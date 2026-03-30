@@ -31,8 +31,13 @@ Prompt Skill
 - [Claude Skills 不就是把提示词存个文件夹吗？](https://mp.weixin.qq.com/s/fc4K4MWnrf6_aI0J3Fbc1Q)
 - [在 IDEA 里爽用 Claude Code 和 Codex](https://mp.weixin.qq.com/s/bK3nNcMYOHkjD7gRWQCntg)
 - [Multi-Agent + Skills + Spring AI 构建自主决策智能体](https://mp.weixin.qq.com/s/7bOyXi03I1asz5YMGD-Tgg)
-- 
-Spring boot 实战
+- [CLAUDE.MD编写完全指南](https://mp.weixin.qq.com/s/1hGhbxfqn22BVweAcTn5og)
+- [Claude Code实践从认知到实践](https://mp.weixin.qq.com/s/kRTBWuQPhSRK7CVIFRuIxw)
+- [Claude Code从"能用"到"真好用"的分水岭](https://mp.weixin.qq.com/s/UbIk3V8r1o3Lg_C6jdxbEw)
+- [别让AI摸鱼了！如何让AI一边修 Bug，一边重构代码，一边帮你review？](https://mp.weixin.qq.com/s/mGlcQu2Etu6ikcPsxxK6zA)
+- [飞书CLI](https://github.com/larksuite/cli)
+
+- Spring boot 实战
 - [如何搭建漂亮的 SpringBoot 脚手架？](https://mp.weixin.qq.com/s/4DqwUWyuMyItOiimUuMfYg)
 - [Spring Boot 企业级代码规范实战：统一响应、统一日志、统一异常、统一封装](https://mp.weixin.qq.com/s/22SMk5jlZKK6ZfvcQ_fUlg)
 - [SpringBoot3.x整合通用基础代码](https://mp.weixin.qq.com/s/BjfiPpEb8RJlbHy-2VSZrQ)
