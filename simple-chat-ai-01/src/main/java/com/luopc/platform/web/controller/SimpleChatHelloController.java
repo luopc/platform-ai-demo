@@ -1,7 +1,7 @@
 package com.luopc.platform.web.controller;
 
+import com.luopc.platform.web.common.core.util.SequenceIdUtil;
 import com.luopc.platform.web.common.core.util.SimpleJsonUtil;
-import com.luopc.platform.web.common.core.util.SimpleNumIDUtil;
 import com.luopc.platform.web.config.ChatWithMemoryClientConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -56,7 +56,7 @@ public class SimpleChatHelloController {
     public String getUser(@RequestParam(value = "name", defaultValue = "David") String name) {
         log.info("Received request to list users by name:{}", name);
         Map<String, Object> user = new HashMap<>();
-        user.put("id", SimpleNumIDUtil.nextPkId());
+        user.put("id", SequenceIdUtil.nextPkId());
         user.put("name", StringUtils.isNoneBlank(name) ? name : "Zhang san");
         return SimpleJsonUtil.writeJson(user);
     }

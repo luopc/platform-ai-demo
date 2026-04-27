@@ -11,7 +11,7 @@
     <parent>
         <groupId>com.luopc.platform.parent</groupId>
         <artifactId>platform-boot-3.5</artifactId>
-        <version>2.10.14-SNAPSHOT</version>
+        <version>2.10.16</version>
     </parent>
     <modules>
         <module>base-java-test</module>
@@ -50,6 +50,25 @@
                 <artifactId>micrometer-registry-prometheus</artifactId>
                 <version>${micrometer.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud.ai</groupId>
+                <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
+                <version>${alibaba.ai.version}</version>
+                <!-- 排除 webflux 传递依赖，保持 MVC 模式 -->
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-webflux</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- ===== Spring AI Alibaba Graph Core（StateGraph 工作流引擎） ===== -->
+            <dependency>
+                <groupId>com.alibaba.cloud.ai</groupId>
+                <artifactId>spring-ai-alibaba-graph-core</artifactId>
+                <version>${alibaba.ai.version}</version>
+            </dependency>
 
             <!-- Documentation -->
             <dependency>
@@ -66,18 +85,18 @@
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-web</artifactId>
-                <version>1.2.6-SNAPSHOT</version>
+                <version>1.2.9</version>
             </dependency>
 
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-core</artifactId>
-                <version>1.2.6-SNAPSHOT</version>
+                <version>1.2.9</version>
             </dependency>
             <dependency>
                 <groupId>com.luopc.platform.boot</groupId>
                 <artifactId>common-test</artifactId>
-                <version>1.2.6-SNAPSHOT</version>
+                <version>1.2.9</version>
                 <scope>test</scope>
             </dependency>
 
@@ -95,22 +114,22 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>${guava.version}</version>
+                <version>${google.guava.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
-                <version>${commons.lang3.version}</version>
+                <version>${commons-lang3.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>${commons.io.version}</version>
+                <version>${commons-io.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
-                <version>${commons.collections4.version}</version>
+                <version>${commons-collections4.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
